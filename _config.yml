@@ -1,25 +1,19 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# This config file is meant for settings that affect your whole blog, values which you are expected to set up once and rarely edit after that. If you find yourself editing this file very often, consider using Jekyll's data files feature for the data you need to update frequently.
 
 # Site settings
-title: Lorem Ipsum
-email: ""
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sapien eros, tincidunt eget dictum non, dignissim at lectus. Aliquam egestas ornare lorem in dictum. Aliquam sodales elit a enim gravida lacinia ut in erat.
-baseurl: ""
-url: ""
-twitter_username: my-twitter-handle
-github_username:  my-github-name
+title:            Lorem Ipsum
+email:            example@example.com
+description:      Lorem ipsum dolor sit amet...
+baseurl:          /nycdh-jekyll # ''
+url:              ''
+
+twitter_username: example
+github_username:  example
 
 # Build settings
-markdown: kramdown
-theme: jekyll-athena
-plugins:
-  - jekyll-feed
-exclude: [Gemfile*, vendor]
+markdown:         kramdown
+remote_theme:     broccolini/athena
+exclude:          [Gemfile*, vendor]
+plugins:          [jekyll-feed, jekyll-remote-theme]
