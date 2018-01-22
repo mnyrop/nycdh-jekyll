@@ -15,5 +15,6 @@ github_username:  example
 # Build settings
 markdown:         kramdown
 remote_theme:     broccolini/athena
+permalink:        pretty
 exclude:          [Gemfile*, vendor]
 plugins:          [jekyll-feed, jekyll-remote-theme]
