@@ -86,12 +86,14 @@ Add metadata to the top of your file, between two lines with three hypthens, lik
 ---
 layout: page
 title: <Your Title>
-permalink: /<your-permalink>
 ---
 ```
 Underneath the metadata, add info to your page just like with the post. This time, try to add at least one image! The syntax for an image is:
 
 `![label][http://link-to-full-image.jpg]`
+
+## Advanced: Liquid for Jekyll functionality
+***
 
 
 
