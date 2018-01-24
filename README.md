@@ -1,5 +1,4 @@
-![octocat][]
-
+# Publishing Content with GitHub Pages
 # Instructions
 
 __Table of Contents__
@@ -11,6 +10,8 @@ __Table of Contents__
 6. [Add a new page](#step-6-add-a-new-page)
 
 __Advanced:__ [Learn about Liquid](../advanced-liquid/)
+
+![octocat][]
 
 ## Step 1: Set up a GitHub Account
 ***
