@@ -6,8 +6,8 @@
 title:            Lorem Ipsum
 email:            example@example.com
 description:      Lorem ipsum dolor sit amet...
-baseurl:          /nycdh-jekyll # ''
 url:              ''
+baseurl:          /nycdh-jekyll # ''
 
 twitter_username: example
 github_username:  example
