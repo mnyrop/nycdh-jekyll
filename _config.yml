@@ -9,8 +9,8 @@ description:      Lorem ipsum dolor sit amet...
 url:              ''
 baseurl:          /nycdh-jekyll # ''
 
-twitter_username: example
-github_username:  example
+twitter_username: mariinyrop
+github_username:  mnyrop
 
 # Build settings
 markdown:         kramdown
