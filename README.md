@@ -58,7 +58,7 @@ Open up a new tab, and navigate to your domain. It may take a minute or so, but 
 ***
  While still on your live site, click on "Writing My Own Post." (It should be at `yourdomain.github.io/2018/01/22/my-own-post/`.)
 
- Open the [Markdown Cheatsheet](tree/master/docs/markdown-cheatsheet.md) in another tab. And in one more tab, open your site repository on GitHub, navigate into `_posts`, open `2018-01-22-my-own-post.md`, and click edit.
+ Open the [Markdown Cheatsheet](docs/markdown-cheatsheet.md) in another tab. And in one more tab, open your site repository on GitHub, navigate into `_posts`, open `2018-01-22-my-own-post.md`, and click edit.
 
  Skim through the Markdown Cheatsheet and rewrite the contents of the post with headers, lists, and links. Commit the edits and refresh the live post to see your changes.
 
