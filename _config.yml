@@ -18,3 +18,4 @@ remote_theme:     broccolini/athena
 permalink:        pretty
 exclude:          [Gemfile*, vendor, README.md]
 plugins:          [jekyll-feed]
+github:           [metadata]
