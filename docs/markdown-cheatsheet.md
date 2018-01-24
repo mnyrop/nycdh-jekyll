@@ -1,8 +1,4 @@
----
-layout: page
-title: Markdown Cheatsheet
-permalink: /markdown-cheatsheet/
----
+# Markdown Cheatsheet
 
 ## Table of Contents  
 [Headers](#headers)  

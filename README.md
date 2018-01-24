@@ -9,7 +9,7 @@ __Table of Contents__
 5. [Edit a post](#step-5-edit-a-post)
 6. [Add a new page](#step-6-add-a-new-page)
 
-__Advanced:__ [Learn about Liquid](../advanced-liquid/)
+__Advanced:__ [Learn about Liquid](advanced-liquid.md)
 
 ![octocat][]
 
@@ -58,7 +58,7 @@ Open up a new tab, and navigate to your domain. It may take a minute or so, but 
 ***
  While still on your live site, click on "Writing My Own Post." (It should be at `yourdomain.github.io/2018/01/22/my-own-post/`.)
 
- Open the [Markdown Cheatsheet](../markdown-cheatsheet/) in another tab. And in one more tab, open your site repository on GitHub, navigate into `_posts`, open `2018-01-22-my-own-post.md`, and click edit.
+ Open the [Markdown Cheatsheet](markdown-cheatsheet.md) in another tab. And in one more tab, open your site repository on GitHub, navigate into `_posts`, open `2018-01-22-my-own-post.md`, and click edit.
 
  Skim through the Markdown Cheatsheet and rewrite the contents of the post with headers, lists, and links. Commit the edits and refresh the live post to see your changes.
 
@@ -95,8 +95,8 @@ Underneath the metadata, add info to your page just like with the post. This tim
 
 
 
-[octocat]:  https://github.com/mnyrop/nycdh-jekyll/blob/master/images/octocat.gif?raw=true
-[fork]:     https://github.com/mnyrop/nycdh-jekyll/blob/master/images/fork.png?raw=true
-[rename]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/images/rename.png?raw=true
-[config]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/images/config.png?raw=true
-[screen]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/images/screen.png?raw=true
+[octocat]:  https://github.com/mnyrop/nycdh-jekyll/blob/master/docs/images/octocat.gif?raw=true
+[fork]:     https://github.com/mnyrop/nycdh-jekyll/blob/master/docs/images/fork.png?raw=true
+[rename]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/docs/images/rename.png?raw=true
+[config]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/docs/images/config.png?raw=true
+[screen]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/docs/images/screen.png?raw=true
