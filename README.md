@@ -9,7 +9,7 @@ __Table of Contents__
 5. [Edit a post](#step-5-edit-a-post)
 6. [Add a new page](#step-6-add-a-new-page)
 
-__Advanced:__ [Learn about Liquid](tree/master/docs/advanced-liquid.md)
+__Advanced:__ [Learn about Liquid](docs/advanced-liquid.md)
 
 ![octocat][]
 
