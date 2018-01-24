@@ -16,5 +16,5 @@ github_username:  example
 markdown:         kramdown
 remote_theme:     broccolini/athena
 permalink:        pretty
-exclude:          [Gemfile*, vendor]
+exclude:          [Gemfile*, vendor, README.md]
 plugins:          [jekyll-feed]
