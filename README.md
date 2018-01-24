@@ -94,8 +94,8 @@ Underneath the metadata, add info to your page just like with the post. This tim
 
 
 
-[octocat]:  {{ site.baseurl }}/images/octocat.gif
-[fork]:     {{ site.baseurl }}/images/fork.png
-[rename]:   {{ site.baseurl }}/images/rename.png
-[config]:   {{ site.baseurl }}/images/config.png
-[screen]:   {{ site.baseurl }}/images/screen.png
+[octocat]:  https://github.com/mnyrop/nycdh-jekyll/blob/master/images/octocat.gif?raw=true
+[fork]:     https://github.com/mnyrop/nycdh-jekyll/blob/master/images/fork.png?raw=true
+[rename]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/images/rename.png?raw=true
+[config]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/images/config.png?raw=true
+[screen]:   https://github.com/mnyrop/nycdh-jekyll/blob/master/images/screen.png?raw=true
