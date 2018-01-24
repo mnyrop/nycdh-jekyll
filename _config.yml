@@ -16,6 +16,6 @@ github_username:  mnyrop
 markdown:         kramdown
 remote_theme:     broccolini/athena
 permalink:        pretty
-exclude:          [Gemfile*, vendor, README.md]
+exclude:          [Gemfile*, vendor, README.md, docs]
 plugins:          [jekyll-feed]
 github:           [metadata]
