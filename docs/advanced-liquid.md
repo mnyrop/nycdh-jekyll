@@ -1,1 +1,0 @@
-# Advanced: Working with Liquid

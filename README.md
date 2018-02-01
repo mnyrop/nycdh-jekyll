@@ -9,7 +9,10 @@ __Table of Contents__
 5. [Edit a post](#step-5-edit-a-post)
 6. [Add a new page](#step-6-add-a-new-page)
 
-__Advanced:__ [Learn about Liquid](docs/advanced-liquid.md)
+__Advanced:__
+
+- [Learn about Liquid](#advanced-liquid-for-jekyll-functionality)
+- [Change your theme](#advanced-change-your-theme)
 
 ![octocat][]
 
@@ -23,11 +26,8 @@ Visit [https://github.com/join](https://github.com/join) and add your informatio
 ***
 Visit the base site repository [https://github.com/mnyrop/nycdh-jekyll](https://github.com/mnyrop/nycdh-jekyll) in a new tab and click on the fork button near the top right corner.  ![fork button][fork]
 
-This creates a [fork](https://help.github.com/articles/fork-a-repo/) (i.e. a diverging copy) of our base site for you to use and change however you want. Your fork/copy will start off looking something like this:
+This creates a [fork](https://help.github.com/articles/fork-a-repo/) (i.e. a diverging copy) of our base site for you to use and change however you want.
 
-![](http://www.pixedelic.com/themes/geode/demo/wp-content/uploads/sites/4/2014/04/placeholder4.png)
-
-This is the basic structure that will power your site!
 
 ## Step 3: Set up your GitHub domain
 ***
@@ -85,7 +85,7 @@ Add metadata to the top of your file, between two lines with three hypthens, lik
 ```yaml
 ---
 layout: page
-title: <Your Title>
+title: Your Title
 ---
 ```
 Underneath the metadata, add info to your page just like with the post. This time, try to add at least one image! The syntax for an image is:
@@ -95,7 +95,46 @@ Underneath the metadata, add info to your page just like with the post. This tim
 ## Advanced: Liquid for Jekyll functionality
 ***
 
+Congrats! If you're reading this, you're likely ahead of the game. Now is a good time to get deeper into Jekyll and its templating engine [Liquid](https://learn.cloudcannon.com/jekyll/introduction-to-liquid/).
 
+Liquid is a kind of pseudo-code that lets you access information about your site, its pages, posts, and more to display on your site.
+
+For example, Liquid is powering your current home page and how it shows posts. Under the hood, it looks something like this:
+
+```liquid
+{% for post in site.posts %}
+
+ <h2>
+   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+ </h2>
+
+ <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+
+ <p>{{ post.content | strip_html | truncatewords:30 }}</p>
+
+{% endfor %}
+```
+
+This constructs a post loop so that each of your posts automatically shows up and has the same type of information displayed in the same way.
+
+Try adding your post's categories to one of your posts with liquid. You'll need to replace/add categories in the metadata of your post (in brackets `[ ]` and separated by commas), and then add liquid to the body of your post. To get you started, you'll set up the loop with:
+
+```liquid
+{% for category in page.categories %}
+ {{ category }}
+{% endfor %}
+```
+
+## Advanced: Change your theme
+***
+
+The following link has a list of themes that are currently supported by GitHub Pages through the `remote_theme` variable in `_config.yml`: [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme). You can peruse to find one you like and, when you're ready, replace
+
+```yaml
+remote_theme:     broccolini/athena
+```
+
+with the theme you want, with the structure `username/repository-name`. (e.g. `mmistakes/minimal-mistakes` )
 
 [octocat]:  https://github.com/mnyrop/nycdh-jekyll/blob/master/docs/images/octocat.gif?raw=true
 [fork]:     https://github.com/mnyrop/nycdh-jekyll/blob/master/docs/images/fork.png?raw=true

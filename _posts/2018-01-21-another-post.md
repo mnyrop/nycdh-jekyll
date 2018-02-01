@@ -2,6 +2,7 @@
 layout: post
 title:  "Another Post — With Pictures!"
 date:   2018-01-21
+categories: [ one, two, three ]
 ---
 
 ![](https://images.pexels.com/photos/813713/pexels-photo-813713.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb)
